@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>位移的按钮</title>
+    <link rel="stylesheet" href="../base.css">
+    <style>
+        span{
+            transition: all 0.5s;
+        }
+
+        .ech-t:hover{
+            transform: translate3d(0,-10px,0);
+        }
+        .ech-b:hover{
+            transform: translate3d(0,10px,0);
+        }
+        .ech-l:hover{
+            transform: translate3d(-10px,0,0);
+        }
+        .ech-r:hover{
+            transform: translate3d(10px,0,0)
+        }
+    </style>
+</head>
+<body>
+    <pre>
+        translate3d - 使一个元素在三维空间移动
+        translate3d(tx,ty,tz)
+        其属性值取值说明：
+            tx：代表横向坐标位移向量的长度；
+            ty：代表纵向坐标位移向量的长度；
+            tz：代表纵向坐标位移向量的长度；
+    </pre>
+    <pre>
+        translateZ() - 让元素在3D空间沿Z轴进行位移
+        translateZ(t)
+        其属性值取值说明：
+            t：指的是Z轴的向量位移长度。
+        ps：视觉差异上的放大或缩小    
+    </pre>
+    <span class="ech-t">go top</span>
+    <span class="ech-b">go bottom</span>
+    <span class="ech-l">go left</span>
+    <span class="ech-r">go right</span>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>边框变化的按钮</title>
+    <link rel="stylesheet" href="../base.css">
+    <style>
+        span{
+            transition: all 0.5s;
+        }
+
+        .ech-border-out:hover{
+            box-shadow: 0 0 0 4px #333,0 0 1px transparent;
+        }
+        .ech-border-in:hover{
+            box-shadow:inset 0 0 0 4px #333,0 0 1px transparent;
+        }
+    </style>
+</head>
+<body>
+    <pre>
+        box-shadow - 向框添加一个或多个阴影
+        box-shadow: h-shadow v-shadow blur spread color inset;
+        其属性值取值说明：
+            h-shadow：水平阴影的位置。允许负值
+            v-shadow：垂直阴影的位置。允许负值
+            blur：模糊距离
+            spread：阴影的尺寸
+            color：阴影的颜色
+            inset：内部阴影，可改成outset
+        ps： border-image-* 属性来构造可伸缩按钮   
+    </pre>
+    <span class="ech-border-out">change big</span>
+    <span class="ech-border-in">change small</span>
+</body>
+</html>
