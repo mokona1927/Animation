@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>颜色块变化的按钮</title>
+    <link rel="stylesheet" href="color-block.css">
+</head>
+<body>
+    <h1>
+        使用:before和:after这两个伪类实现。
+    </h1>
+    <h3>淡入（fade）</h3>
+    <span class="ech-fade">fade</span>
+    <span class="ech-fade-t">fade top</span>
+    <span class="ech-fade-b">fade bottom</span>
+    <span class="ech-fade-l">fade left</span>
+    <span class="ech-fade-r">fade right</span>
+    <hr>
+
+    <h3>弹入（bounce）</h3>
+    <pre>
+        transition-timing-function - 规定过渡效果的速度曲线
+        transition-timing-function: linear|ease|ease-in|ease-out|ease-in-out|cubic-
+        bezier(n,n,n,n);
+        其属性值取值说明：
+            linear：以相同速度开始至结束（等于 cubic-bezier(0,0,1,1)
+            ease：慢速开始，然后变快，然后慢速结束（等于cubic-bezier(0.25,0.1,0.25,1)
+            ease-in：以慢速开始（等于 cubic-bezier(0.42,0,1,1)
+            ease-out：以慢速结束（等于 cubic-bezier(0,0,0.58,1)
+            ease-in-out：以慢速开始和结束（等于 cubic-bezier(0.42,0,0.58,1)
+            cubic-bezier(n,n,n,n)：在 cubic-bezier 函数中定义自己的值。可能的值是 0 至 1 之间的数值。
+    </pre>
+    <span class="ech-bounce-t">bounce top</span>
+    <span class="ech-bounce-b">bounce bottom</span>
+    <span class="ech-bounce-l">bounce left</span>
+    <span class="ech-bounce-r">bounce right</span>
+    <hr>
+
+    <h3>以center为原点</h3>
+    <span class="ech-fade-c-in">center fade in</span>
+    <span class="ech-fade-c-out">center fade out</span>
+    <hr>
+
+    <h3>以middle为原点</h3>
+    <span class="ech-fade-m-in">middle fade in</span>
+    <span class="ech-fade-m-out">middle fade out</span>
+    <hr>   
+</body>
+</html>
