@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>基础按钮</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <h3>边框变化</h3>
+    <pre>
+        box-shadow - 向框添加一个或多个阴影
+        box-shadow: h-shadow v-shadow blur spread color inset;
+        其属性值取值说明：
+            h-shadow：水平阴影的位置。允许负值
+            v-shadow：垂直阴影的位置。允许负值
+            blur：模糊距离
+            spread：阴影的尺寸
+            color：阴影的颜色
+            inset：内部阴影，可改成outset
+        ps： border-image-* 属性来构造可伸缩按钮   
+    </pre>
+    <span class="ech-border-out">change big</span>
+    <span class="ech-border-in">change small</span>
+    <hr>
+
+    <h3>透明度变化</h3>
+    <span class="ech-fade-out">fade-out</span>
+    <span class="ech-fade-in">fade-in</span>
+    <hr>
+    
+    <h3>2D大小变化</h3>
+    <span class="ech-big">change big</span>
+    <span class="ech-small">change small</span>
+    <hr>
+    
+    <h3>位移</h3>
+    <pre>
+        translate3d - 使一个元素在三维空间移动
+        translate3d(tx,ty,tz)
+        其属性值取值说明：
+            tx：代表横向坐标位移向量的长度；
+             ty：代表纵向坐标位移向量的长度；
+            tz：代表纵向坐标位移向量的长度；
+    </pre>
+    <pre>
+        translateZ() - 让元素在3D空间沿Z轴进行位移
+        translateZ(t)
+        其属性值取值说明：
+            t：指的是Z轴的向量位移长度。
+        ps：视觉差异上的放大或缩小    
+    </pre>
+    <span class="ech-t">go top</span>
+    <span class="ech-b">go bottom</span>
+    <span class="ech-l">go left</span>
+    <span class="ech-r">go right</span>
+    <hr>
+
+    <h3>倾斜</h3>
+    <pre>
+        transform-origin-允许改变切换元素的位置
+        2d：transform-origin: x-axis y-axis；
+        3d：transform-origin: x-axis y-axis z-axis;
+    </pre>  
+    <span class="ech-skew-l">skew-L</span>
+    <span class="ech-skew-r">skew-R</span>
+    <span class="ech-skew-l-t">skew-L-T</span>
+    <span class="ech-skew-r-t">skew-R-T</span>
+    <span class="ech-skew-l-b">skew-L-B</span>
+    <span class="ech-skew-r-b">skew-R-B</span>
+    <hr>
+    
+    <h3>阴影变化</h3>
+    <span class="ech-shadow">shadow</span>
+    <span class="ech-shadow-in">shadow-in</span>
+    <span class="ech-shadow-raduis">shadow-raduis</span>
+    <span class="ech-shadow-big">shadow-big</span>
+    <hr>
+    
+    <h3>旋转</h3>
+    <span class="ech-grow-rotate-l">grow-rotate-l</span>
+    <span class="ech-grow-rotate-r">grow-rotate-r</span>
+    <span class="ech-rotate5">rotate5</span>
+    <span class="ech-rotate15">rotate15</span>
+    <span class="ech-rotate30">rotate30</span>
+    <span class="ech-rotate60">rotate60</span>
+    <span class="ech-rotate90">rotate90</span>
+    <span class="ech-rotate180">rotate180</span>
+    <span class="ech-rotate360">rotate360</span>
+    <span class="ech-rotate-5">rotate-5</span>
+    <span class="ech-rotate-15">rotate-15</span>
+    <span class="ech-rotate-30">rotate-30</span>
+    <span class="ech-rotate-60">rotate-60</span>
+    <span class="ech-rotate-90">rotate-90</span>
+    <span class="ech-rotate-180">rotate-180</span>
+    <hr>
+    
+    <h3>圆角变化</h3>
+    <span class="ech-rectangle">change rectangle</span>
+    <span class="ech-radius">change radius</span>
+    <hr>    
+</body>
+</html>

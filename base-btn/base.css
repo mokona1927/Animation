@@ -1,0 +1,166 @@
+span{
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    background-color:#e1e1e1;
+    min-width: 80px;
+    padding: 0 10px;
+    margin: 15px;
+    transition: all 0.5s;
+}
+pre{
+    color:gray;
+}
+/*边框变化*/
+.ech-border-out:hover{
+    box-shadow: 0 0 0 4px #333,0 0 1px transparent;
+}
+.ech-border-in:hover{
+    box-shadow:inset 0 0 0 4px #333,0 0 1px transparent;
+}
+
+/*透明度变化*/
+.ech-fade-out:hover{
+    opacity: .5;
+}
+.ech-fade-in{
+    opacity: .6;
+}
+.ech-fade-in:hover{
+    opacity: 1;
+}        
+
+/*2D大小变化*/
+.ech-big:hover{
+    transform: scale(1.1)
+}
+.ech-small:hover{
+    transform: scale(.9);
+}
+
+/*位移变化*/
+.ech-t:hover{
+    transform: translate3d(0,-10px,0);
+}
+.ech-b:hover{
+    transform: translate3d(0,10px,0);
+}
+.ech-l:hover{
+    transform: translate3d(-10px,0,0);
+}
+.ech-r:hover{
+    transform: translate3d(10px,0,0)
+}
+
+/*倾斜变化*/
+.ech-skew-l-t,.ech-skew-r-t{
+    transform-origin: 0 100%;
+}
+.ech-skew-l-b,.ech-skew-r-b{
+    transform-origin: 100% 0;
+}
+
+.ech-skew-l:hover{
+    transform: skew(-15deg);
+}
+.ech-skew-r:hover{
+    transform: skew(15deg);
+}
+
+.ech-skew-l-t:hover{
+    transform: skew(-15deg);
+}
+.ech-skew-r-t:hover{
+    transform: skew(15deg);
+}
+
+.ech-skew-l-b:hover{
+    transform: skew(-15deg);
+}
+.ech-skew-r-b:hover{
+    transform: skew(15deg);
+}
+
+/*阴影变化*/
+.ech-shadow:hover{
+    box-shadow: 0 0 10px #333;
+}
+.ech-shadow-in:hover{
+    box-shadow: inset 0 0 10px #333;
+}
+.ech-shadow-raduis:hover{
+    box-shadow: inset 0 0 20px #fff;
+}
+.ech-shadow-big:hover{
+    box-shadow: 0 10px 10px -10px lightgray;
+    transform: scale(1.1);
+}
+
+/*旋转*/
+.ech-grow-rotate-l:hover {
+    transform: scale(1.1) rotate(4deg);
+}
+.ech-grow-rotate-r:hover {
+    transform: scale(1.1) rotate(-4deg);
+}
+.ech-rotate-5:hover {
+    transform: rotate(-5deg);
+}
+.ech-rotate-15:hover {
+    transform: rotate(-15deg);
+}
+        
+.ech-rotate-30:hover {
+    transform: rotate(-30deg);
+}
+        
+.ech-rotate-60:hover {
+    transform: rotate(-60deg);
+}
+        
+.ech-rotate-90:hover {
+    transform: rotate(-90deg);
+}
+        
+.ech-rotate-180:hover {
+    transform: rotate(-180deg);
+}
+.ech-rotate5:hover {
+    transform: rotate(5deg);
+}
+.ech-rotate15:hover {
+    transform: rotate(15deg);
+}
+        
+.ech-rotate30:hover {
+    transform: rotate(30deg);
+}
+        
+.ech-rotate60:hover {
+    transform: rotate(60deg);
+}
+        
+.ech-rotate90:hover {
+    transform: rotate(90deg);
+}
+        
+.ech-rotate180:hover {
+    transform: rotate(180deg);
+}
+        
+.ech-rotate360:hover {
+    transform: rotate(360deg);
+}
+
+/*圆角变化*/
+.ech-rectangle{
+    border-radius: 10px;
+}
+.ech-rectangle:hover{
+    border-radius: 0px;
+}
+.ech-radius:hover{
+    border-radius: 10px;
+}        
